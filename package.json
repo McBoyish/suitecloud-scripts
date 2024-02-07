@@ -1,0 +1,14 @@
+{
+  "name": "suitecloud-scripts",
+  "version": "1.0.4",
+  "description": "Scripts for suitecloude development",
+  "main": "index.js",
+  "scripts": {
+    "suitecloud": "node ../@oracle/suitecloud-cli/src/suitecloud.js"
+  },
+  "author": "Jake",
+  "license": "ISC",
+  "dependencies": {
+    "@oracle/suitecloud-cli": "^1.7.3"
+  }
+}

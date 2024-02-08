@@ -63,7 +63,7 @@ if (args.length === 0) {
   process.exit(1);
 }
 
-runScript(`./@oracle/suitecloud-cli/src/suitecloud.js`, args, function (error) {
+runScript(`.node_modules/@oracle/suitecloud-cli/src/suitecloud.js`, args, function (error) {
     if (error) {
       console.error(error.message)
     }

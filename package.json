@@ -1,6 +1,6 @@
 {
   "name": "suitecloud-scripts",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Scripts for suitecloude development",
   "main": "lib/index.js",
   "bin": {

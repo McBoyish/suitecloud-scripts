@@ -4,8 +4,8 @@
   "description": "Scripts for suitecloude development",
   "main": "lib/index.js",
   "bin": {
-    "upload": "bin/upload.js",
-    "setup": "bin/setup.js"
+    "suite:upload": "bin/upload.js",
+    "suite:setup": "bin/setup.js"
   },
   "preferGlobal": true,
   "author": "Jake",

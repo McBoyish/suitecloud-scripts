@@ -2,10 +2,12 @@
   "name": "suitecloud-scripts",
   "version": "1.0.7",
   "description": "Scripts for suitecloude development",
-  "main": "index.js",
-  "scripts": {
-    "suitecloud": "node ../@oracle/suitecloud-cli/src/suitecloud.js"
+  "main": "lib/index.js",
+  "bin": {
+    "upload": "bin/upload.js",
+    "setup": "bin/setup.js"
   },
+  "preferGlobal": true,
   "author": "Jake",
   "license": "ISC",
   "dependencies": {

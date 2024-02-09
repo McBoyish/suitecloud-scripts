@@ -1,6 +1,6 @@
 {
   "name": "suitecloud-scripts",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "description": "Scripts for suitecloude development",
   "bin": {
     "suite:upload": "bin/upload.js",

@@ -1,6 +1,6 @@
 {
   "name": "suitecloud-scripts",
-  "version": "1.0.13",
+  "version": "1.0.2",
   "description": "Scripts for suitecloude development",
   "bin": {
     "upload": "bin/upload.js",
@@ -10,6 +10,6 @@
   "author": "Jake",
   "license": "ISC",
   "dependencies": {
-    "@oracle/suitecloud-cli": "^1.7.3"
+    "@oracle/suitecloud-cli": "^2.0.0"
   }
 }

@@ -1,10 +1,12 @@
 {
   "name": "suitecloud-scripts",
   "version": "1.0.14",
-  "description": "Scripts for suitecloude development",
+  "description": "Scripts for suitecloud development",
   "bin": {
     "upload": "bin/upload.js",
-    "setup": "bin/setup.js"
+    "setup": "bin/setup.js",
+    "uploadLocal": "bin/uploadLocal.js",
+    "setupLocal": "bin/setupLocal.js"
   },
   "preferGlobal": true,
   "author": "Jake",

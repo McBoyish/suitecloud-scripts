@@ -1,0 +1,1 @@
+require('../lib/suitecloud-tools.js').setup(true);

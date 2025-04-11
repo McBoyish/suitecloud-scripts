@@ -1,12 +1,20 @@
 {
   "name": "suitecloud-scripts",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "description": "Scripts for suitecloud development",
   "bin": {
     "upload": "bin/upload.js",
     "setup": "bin/setup.js",
     "uploadLocal": "bin/uploadLocal.js",
     "setupLocal": "bin/setupLocal.js"
+  },
+  "scripts": {
+    "init": "npm install --global yarn && yarn",
+    "setup": "setupLocal",
+    "upload": "uploadLocal",
+    "dependencies": "suitecloud project:adddependencies",
+    "prettier": "prettier --config-precedence file-override --config node_modules/suitecloud-scripts/.prettierrc --write src/FileCabinet/SuiteScripts",
+    "eslint": "eslint --config node_modules/suitecloud-scripts/eslint.config.js src/FileCabinet/SuiteScripts"
   },
   "preferGlobal": true,
   "author": "Jake",
